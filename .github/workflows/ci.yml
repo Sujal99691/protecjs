@@ -29,3 +29,9 @@ jobs:
 
     - name: Run tests
       run: yarn test
+
+    - name: Run example
+      run: |
+          cd examples/Textinput
+          yarn install
+          yarn build
